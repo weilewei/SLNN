@@ -1,7 +1,27 @@
 import numpy as np
 
 
-def main_phython(X, y, wh, bh, wout, bout, lr, num_iter):
+def main_phython(lr, num_iter):
+    # Variable initialization
+    # Input array
+    a = 1000
+    b = 1000
+    c = 1000
+    X = np.ones((a, b))
+
+    # Output
+    y = np.ones((1, a))
+
+    inputlayer_neurons = X.shape[1]  # number of features in data set
+    hiddenlayer_neurons = c  # number of hidden layers neurons
+    output_neurons = a  # number of neurons at output layer
+
+    # weight and bias initialization
+    wh = np.ones((inputlayer_neurons, hiddenlayer_neurons))
+    bh = np.ones((1, hiddenlayer_neurons))
+    wout = np.ones((hiddenlayer_neurons, output_neurons))
+    bout = np.ones((1, output_neurons))
+
     output = 0
     for i in range(num_iter):
         # print(i)
@@ -26,29 +46,4 @@ def main_phython(X, y, wh, bh, wout, bout, lr, num_iter):
     return output
 
 
-# Variable initialization
-# Input array
-a = 1000
-b = 2
-c = 20
-X = np.ones((a, b))
-
-# Output
-output_y = np.ones((1, a))
-
-num_iter = 5000 # Setting training iterations
-lr = 0.1  # Setting learning rate
-inputlayer_neurons = X.shape[1]  # number of features in data set
-hiddenlayer_neurons = c  # number of hidden layers neurons
-output_neurons = a  # number of neurons at output layer
-
-# weight and bias initialization
-wh = np.ones((inputlayer_neurons, hiddenlayer_neurons))
-bh = np.ones((1, hiddenlayer_neurons))
-wout = np.ones((hiddenlayer_neurons, output_neurons))
-bout = np.ones((1, output_neurons))
-
-
-output = main_phython(X, output_y, wh, bh, wout, bout, lr, num_iter)
-#print("output = ", output)
-# print(np.shape(output))
+output = main_phython(0.1, 800)

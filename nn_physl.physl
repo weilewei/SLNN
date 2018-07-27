@@ -4,8 +4,8 @@ define(
     num_iter,
     block(
 	define(a, 1000),
-	define(b, 2),
-	define(c, 20),
+	define(b, 1000),
+	define(c, 1000),
         define(X, constant(1.0, make_list(a, b))),
         define(y, constant(1.0, make_list(1, a))),
         define(wh, constant(1.0, make_list(b,c))),
@@ -135,8 +135,9 @@ define(
             range(num_iter)
         ),
 output
-//            cout(shape(output), "")
-//     cout(shape(bout_local))  
+     //       cout(shape(output), ""),
+   // cout(shape(bout_local)),  
+    //cout(shape(wout_local))  
     )
 )
 apply(main_phylanx, sys_argv)
