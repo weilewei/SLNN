@@ -12,7 +12,7 @@ for it in "${iteration_array[@]}"
 	  for th in "${thr[@]}"
 		do
            	 export OMP_NUM_THREADS=1
-            		time ~/src/repos/phylanx/build_Release/bin/physl /home/wwei/tests/SLNN/nn_physl.physl ${lr} ${it} --hpx:threads=${th} --hpx:bind=balanced --hpx:numa-sensitive --hpx:print-counter=/threads{locality#*/total}/idle-rate >> nnphx_${th}th_itrscs_${it}_${lr}
+            		time ~/src/repos/phylanx/build_Release/bin/physl nn_physl.physl ${lr} ${it} --hpx:threads=${th} --hpx:bind=balanced --hpx:numa-sensitive --hpx:print-counter=/threads{locality#*/total}/idle-rate >> nnphx_${th}th_itrscs_${it}_${lr}
            	 echo "done ${th}_${it}_${lr}"
        		 done
     	done

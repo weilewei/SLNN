@@ -11,6 +11,6 @@ thr=(1 2 4 6 8 10 12 14 16 18 20)
 for th in "${thr[@]}"
     do
 	export OMP_NUM_THREADS=${th}   
-        python3 /home/wwei/tests/SLNN/nn_python.py >> nn_${th}th_itrscs_800_0.1
+        python3 nn_python.py >> nn_${th}th_itrscs_800_0.1
 	echo "done ${th}"	
 done
