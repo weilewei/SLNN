@@ -1,5 +1,5 @@
 import numpy as np
-
+import time
 
 def main_phython(lr, num_iter):
     # Variable initialization
@@ -45,5 +45,7 @@ def main_phython(lr, num_iter):
         bh += np.sum(d_hiddenlayer, axis=0, keepdims=True) * lr
     return output
 
-
+time_start = time.time()
 output = main_phython(0.1, 800)
+time_end = time.time()
+print("in time =", time_end - time_start)
