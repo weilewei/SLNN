@@ -134,8 +134,8 @@ define(
             ),
             range(num_iter)
         ),
-output
-     //       cout(shape(output), ""),
+output,
+          cout(shape(output), "")
    // cout(shape(bout_local)),  
     //cout(shape(wout_local))  
     )
