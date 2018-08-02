@@ -3,7 +3,7 @@ echo "This script is used to run nn_physl.physl example"
 
 iteration_array=(800)
 learning_rate=(0.1)
-thr=(1 2 4 6 8 10 12 14 16)
+thr=(10)
 
 for it in "${iteration_array[@]}"
     do
