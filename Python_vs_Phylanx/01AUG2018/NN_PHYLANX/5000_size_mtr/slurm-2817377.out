@@ -1,0 +1,31 @@
+This script is used to run nn_physl.physl example
+
+real	1794m35.301s
+user	1722m50.187s
+sys	71m50.772s
+done 1_800_0.1
+
+real	935m27.152s
+user	1756m36.125s
+sys	109m38.588s
+done 2_800_0.1
+
+real	533m20.265s
+user	1956m27.327s
+sys	106m21.950s
+done 4_800_0.1
+
+real	317m59.804s
+user	2235m33.188s
+sys	113m46.530s
+done 8_800_0.1
+
+real	207m56.689s
+user	2315m16.462s
+sys	65m25.632s
+done 12_800_0.1
+
+real	166m17.595s
+user	2570m35.214s
+sys	61m24.550s
+done 16_800_0.1

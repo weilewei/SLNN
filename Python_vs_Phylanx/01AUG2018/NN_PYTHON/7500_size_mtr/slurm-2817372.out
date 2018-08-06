@@ -1,0 +1,3 @@
+This script is used to run nn_python example
+done 1
+slurmstepd: error: *** JOB 2817372 ON marvin12 CANCELLED AT 2018-08-05T09:12:00 DUE TO TIME LIMIT ***

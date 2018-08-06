@@ -1,0 +1,2 @@
+This script is used to run nn_physl.physl example
+slurmstepd: error: *** JOB 2817389 ON marvin11 CANCELLED AT 2018-08-05T09:14:30 DUE TO TIME LIMIT ***
