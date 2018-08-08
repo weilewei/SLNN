@@ -14,3 +14,8 @@ real	372m17.887s
 user	370m49.636s
 sys	1m28.076s
 done 1_800_0.1_3000
+
+real	887m43.796s
+user	882m5.962s
+sys	5m37.205s
+done 1_800_0.1_4000
