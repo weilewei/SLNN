@@ -1,0 +1,2 @@
+/threads{locality#0/total/total}/idle-rate,1,882.411479,[s],6,[0.01%]
+/threads{locality#0/pool#default/worker-thread#0}/idle-rate,1,882.411498,[s],6,[0.01%]
