@@ -402,3 +402,16 @@
 501 [140366303459200] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
 501 [140366303459200] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
 507 [140366303459200] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+915444 [140366303459200] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+915453 [140366181156608] INFO perfrun.itt <> - stop itt controller
+915453 [140366181156608] INFO perfrun.itt <> - detach itt controller
+915453 [140366181156608] INFO perfrun.tpss <> - stop tpss controller
+915454 [140366181156608] ERROR perfrun.launcher <> - media can not perform an operation and will be disabled., at file: vcs/perfrun1/launcher/src/plugin_manager_impl.hpp:426
+915454 [140366181156608] INFO perfrun.sdk <> - De-allocating TMU: /tmp/amplxe-tmp-wwei/amplxe-res-26984-9399010988666270/data.0/systemcollector-26984-rostam1.sc
+915454 [140366181156608] INFO perfrun.system <> - closed the system trace file: /tmp/amplxe-tmp-wwei/amplxe-res-26984-9399010988666270/data.0/systemcollector-26984-rostam1.sc
+915455 [140366303459200] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+915455 [140366303459200] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+915455 [140366303459200] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+915455 [140366303459200] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:209
+915526 [140366303459200] INFO perfrun.launcher <> - Application exit code: 0
+915526 [140366303459200] INFO perfrun.launcher <> - Exit code: 0
