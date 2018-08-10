@@ -1,0 +1,3 @@
+/threads{locality#0/total/total}/idle-rate,1,26600.221838,[s],87,[0.01%]
+/threads{locality#0/pool#default/worker-thread#0}/idle-rate,1,26600.221719,[s],92,[0.01%]
+/threads{locality#0/pool#default/worker-thread#1}/idle-rate,1,26600.221715,[s],83,[0.01%]

@@ -19,3 +19,28 @@ real	887m43.796s
 user	882m5.962s
 sys	5m37.205s
 done 1_800_0.1_4000
+
+real	1703m20.995s
+user	1689m22.459s
+sys	13m57.073s
+done 1_800_0.1_5000
+
+real	7m40.763s
+user	15m19.264s
+sys	0m1.931s
+done 2_800_0.1_1000
+
+real	57m11.687s
+user	114m12.642s
+sys	0m9.767s
+done 2_800_0.1_2000
+
+real	189m37.563s
+user	378m18.014s
+sys	0m52.198s
+done 2_800_0.1_3000
+
+real	443m20.714s
+user	882m56.310s
+sys	3m20.727s
+done 2_800_0.1_4000
