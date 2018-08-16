@@ -44,3 +44,4 @@ real	443m20.714s
 user	882m56.310s
 sys	3m20.727s
 done 2_800_0.1_4000
+slurmstepd: error: *** JOB 2836138 ON marvin09 CANCELLED AT 2018-08-10T13:19:52 DUE TO TIME LIMIT ***
